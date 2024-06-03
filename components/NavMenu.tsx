@@ -45,7 +45,7 @@ const components: { title: string; href: string; description: string }[] = [
 export function NavigationMenuDemo() {
   return (
     <div className="flex mt-2">
-        <Image src="/logo.svg" alt="logo" width={5} height={5}
+        <Image src="/logo1.svg" alt="logo" width={5} height={5}
         className="h-10 w-32" 
         />
     <NavigationMenu className="ml-5">
