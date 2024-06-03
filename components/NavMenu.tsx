@@ -14,6 +14,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { Button } from "./ui/button"
+import Image from "next/image"
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -44,7 +45,7 @@ const components: { title: string; href: string; description: string }[] = [
 export function NavigationMenuDemo() {
   return (
     <div className="flex mt-2">
-        <img src="/logo.svg" alt="logo" className="h-10 w-32" />
+        <Image src="/logo.svg" alt="logo" className="h-10 w-32" />
     <NavigationMenu className="ml-5">
       <NavigationMenuList>
         <NavigationMenuItem>
